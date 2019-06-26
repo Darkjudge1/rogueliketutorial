@@ -2,7 +2,7 @@ class Entity:
     """
     A generic object used to represent players, entity, items, etc.
     """
-def _init_ (self, x, y, char, color):
+def __init__ (self, x, y, char, color):
     self.x = x
     self.y = y
     # char is the player object
