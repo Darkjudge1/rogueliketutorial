@@ -15,6 +15,7 @@ def main():
     screen_height = 50
     #instantiate a player
     player = Entity(int(screen_width / 2), int(screen_height / 2), '@', libtcod.white)
+    #player = Entity(int(screen_width / 2), int(screen_height / 2), '@', libtcod.white)
     #instatiate a npc.
     npc = Entity(int(screen_width / 2-5), int(screen_height / 2), '@', libtcod.yellow)
     entities = [npc, player]

@@ -1,17 +1,25 @@
+
 class Entity:
-    """
-    A generic object used to represent players, entity, items, etc.
-    """
-def __init__ (self, x, y, char, color):
-    self.x = x
-    self.y = y
-    # char is the player object
-    self.char = char
-    # color is the player object color.
-    self.color = color
+    def __init__ (self, x, y, char, color):
+        self.x = x
+        self.y = y
+        self.char = char
+        self.color = color
 
-def move (self, dx, dy):
-    #move the entity by a given amount
-    self.x += dx
-    self.y += dy
+    def move (self, dx, dy):
+        self.x += dx
+        self.y += dy
+"""
+Copied and pasted from tutorial. Seems to be working
+class Entity:
+    def __init__(self, x, y, char, color):
+        self.x = x
+        self.y = y
+        self.char = char
+        self.color = color
 
+    def move(self, dx, dy):
+        # Move the entity by a given amount
+        self.x += dx
+        self.y += dy
+"""
